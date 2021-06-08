@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Shopping card</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+
+
+</head>
+<body>
+    <p>Shopping </p>
+    <div>
+        <div class="articles">
+            <div class="article" >
+                <img src="res\pinceauxx-min.jpg" alt="Pinceau" />
+                <span id="prix1">900 DZ</span>
+            </div>
+            
+            <div class="calcul">
+                <span> Kit de 10 pinceaux</span> 
+                <button onclick="calcul('prix1','qt1','-','total1')">-</button>
+                <span id="qt1"> 1 </span>
+                <!-- <input id="qt1" type="text" value="1"> -->
+                <button onclick="calcul('prix1','qt1','+','total1')">+</button>
+                <span id="total1"> 900 DZ </span>
+            </div>
+        </div>
+    
+   
+        <div class="articles">
+            <div class="article" >
+                <img src="res\images.jpg" alt="Gel de cammouflage" />
+                <span id="prix2">1500 DZ</span>
+            </div>
+            
+            <div class="calcul">
+                <span>Gel venalisa 15 mL Nude Pink Ref:A08</span> 
+                <button onclick="calcul('prix2','qt2','-','total2')">-</button>
+                <span id="qt2"> 1 </span>
+                <!-- <input id="qt1" type="text" value="1"> -->
+                <button onclick="calcul('prix2','qt2','+','total2')">+</button>
+                <span id="total2"> 1500 DZ </span>
+            </div>
+        </div>
+
+
+        <div class="articles">
+            <div class="article" >
+                <img src="res\téléchargement (2).jpg" alt="Gel de construction" sizes="20px" />
+                <span id="prix3">1500 DZ</span>
+            </div>
+            
+            <div class="calcul">
+                <span>Gel venalisa 15 mL Clear Ref:v313</span> 
+                <button onclick="calcul('prix3','qt3','-','total3')">-</button>
+                <span id="qt3"> 1 </span>
+                <!-- <input id="qt1" type="text" value="1"> -->
+                <button onclick="calcul('prix3','qt3','+','total3')">+</button>
+                <span id="total3"> 1500 DZ </span>
+            </div>
+        </div>
+
+        <div class="articles">
+            <div class="article" >
+                <img src="res\téléchargement.jpg" alt="Vernis semi permanent" sizes="20px" />
+                <span id="prix4">850 DZ</span>
+            </div>
+            
+            <div class="calcul">
+                <span>Vernis semi permanent Venalisa 7 mL pink Ref:922 </span> 
+                <button onclick="calcul('prix4','qt4','-','total4')">-</button>
+                <span id="qt4"> 1 </span>
+                <!-- <input id="qt1" type="text" value="1"> -->
+                <button onclick="calcul('prix4','qt4','+','total4')">+</button>
+                <span id="total4"> 850 DZ </span>
+            </div>
+        </div>
+
+
+        <div class="articles">
+            <div class="article" >
+                <img src="res\71OivEJUAuL._AC_SL1000_.jpg" alt="Vernis a aimant" sizes="20px" />
+                <span id="prix5">3000 DZ</span>
+            </div>
+            
+            <div class="calcul">
+                <span>Vernis 9D avec son aimant Venalisa 7mL </span> 
+                <button onclick="calcul('prix5','qt5','-','total5')">-</button>
+                <span id="qt5"> 1 </span>
+                <!-- <input id="qt1" type="text" value="1"> -->
+                <button onclick="calcul('prix5','qt5','+','total5')">+</button>
+                <span id="total5"> 3000 DZ </span>
+            </div>
+        </div>
+
+        <div class="articles">
+            <div class="article" >
+                <img src="res\Photo2.jpg" alt="kit" sizes="20px" />
+                <span id="prix6">23000 DZ</span>
+            </div>
+            
+            <div class="calcul">
+                <span>Kit de 60 vernis venalisa de 7mL </span> 
+                <button onclick="calcul('prix6','qt6','-','total6')">-</button>
+                <span id="qt6"> 1 </span>
+                <!-- <input id="qt1" type="text" value="1"> -->
+                <button onclick="calcul('prix6','qt6','+','total6')">+</button>
+                <span id="total6"> 23000 DZ </span>
+            </div>
+        </div>
+
+        <div class="articles">
+            <div class="article" >
+                <img src="res\téléchargement (1).jpg" alt="kit" sizes="20px" />
+                <span id="prix7">56000 DZ</span>
+            </div>
+            
+            <div class="calcul">
+                <span>Kit de 120 vernis venalisa de 15mL </span> 
+                <button onclick="calcul('prix7','qt7','-','total7')">-</button>
+                <span id="qt7"> 1 </span>
+                <!-- <input id="qt1" type="text" value="1"> -->
+                <button onclick="calcul('prix7','qt7','+','total7')">+</button>
+                <span id="total7"> 56000 DZ </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<p>Le prix total est :</p>
+<div class="total">
+    <span id="totalCart"> 86750 DZ</span>
+</div>
+
+<script src="JS\script.js"></script>
+</body>
+</html>
