@@ -14,15 +14,15 @@ function calcul(prixA,qtA,operation,totalA){
         total=(qt+1)*prix;
         document.getElementById(totalA).innerHTML = total + " DZ";
         console.log(total);
-        document.getElementById("totalCart").innerHTML = parseInt(totalCart) + parseInt(prix)
+        document.getElementById("totalCart").innerHTML = parseInt(totalCart) + parseInt(prix) +" DZ"
     }
     if(operation==="-"){
         if(qt>0){
             document.getElementById(qtA).innerHTML = qt-1;
             total=(qt-1)*prix;
-            document.getElementById(totalA).innerHTML = total + " DZ";
+            document.getElementById(totalA).innerHTML = total+"DZ";
             console.log(total);
-            document.getElementById("totalCart").innerHTML = parseInt(totalCart) - parseInt(prix)
+            document.getElementById("totalCart").innerHTML = parseInt(totalCart) - parseInt(prix) +" DZ"
         }
     }
 }
